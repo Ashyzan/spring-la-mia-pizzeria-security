@@ -1,4 +1,4 @@
-package it.ashyzan.pizzeria.security;
+package it.ashyzan.pizzeria.repository;
 
 import java.util.Optional;
 

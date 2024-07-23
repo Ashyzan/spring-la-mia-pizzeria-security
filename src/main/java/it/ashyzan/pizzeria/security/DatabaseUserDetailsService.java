@@ -8,6 +8,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
 import it.ashyzan.pizzeria.model.User;
+import it.ashyzan.pizzeria.repository.UserRepository;
 
 public class DatabaseUserDetailsService implements UserDetailsService {
 

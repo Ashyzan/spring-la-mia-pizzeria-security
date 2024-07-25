@@ -34,7 +34,6 @@
 	      <th scope="col">Nome Offerta</th>
 	      <th scope="col">Data inizio</th>
 	      <th scope="col">Data fine</th>
-		  <th scope="col">Edit</th>
 	    </tr>
 	  </thead>
 	  <tbody>
@@ -43,9 +42,9 @@
 	      <td th:text="${item.dataInizioOfferta}">2</td>
 	      <td th:text="${item.dataFineOfferta}">3</td>
 		  <td >
-			<a th:style="|display:inline;float:left;|" th:href="@{|/offerte/edit/${item.id}|}"><i class="btn bi bi-pencil-square"></i></a>
+			<a sec:authorize="hasAuthority('ADMIN')" th:style="|display:inline;float:left;|" th:href="@{|/offerte/edit/${item.id}|}"><i class="btn bi bi-pencil-square"></i></a>
 		  			<!--pulsante delete-->
-					<a th:style="|display:inline;float:left;|">
+					<a sec:authorize="hasAuthority('ADMIN')" th:style="|display:inline;float:left;|">
 						<form action="#" th:action="@{|/offerte/delete/${item.id}|}" method="post">
 							<button class="btn" type="submit" id="submitbutton"
 							  	th:data-confirm-delete="|Sei sicuro di voler cancellare?|" 
@@ -66,7 +65,7 @@
 </div>
 	
 </div>		
-		<a th:href="@{|/offerte/create/${pizza.id}|}" class="card-link">Aggiungi Offerta Speciale a questa pizza</a>
+		<a sec:authorize="hasAuthority('ADMIN')" th:href="@{|/offerte/create/${pizza.id}|}" class="card-link">Aggiungi Offerta Speciale a questa pizza</a>
 	  </div>
 	</div>   
 </div>

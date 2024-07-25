@@ -5,6 +5,12 @@
 /Users/ashyzan/Documents/boolean/SPRINGBOOT/spring-la-mia-pizzeria-security/src/main/java/it/ashyzan/pizzeria/model/IngredientiModel.java
 /Users/ashyzan/Documents/boolean/SPRINGBOOT/spring-la-mia-pizzeria-security/src/main/java/it/ashyzan/pizzeria/model/OffertaSpecialeModel.java
 /Users/ashyzan/Documents/boolean/SPRINGBOOT/spring-la-mia-pizzeria-security/src/main/java/it/ashyzan/pizzeria/model/PizzaModel.java
+/Users/ashyzan/Documents/boolean/SPRINGBOOT/spring-la-mia-pizzeria-security/src/main/java/it/ashyzan/pizzeria/model/Role.java
+/Users/ashyzan/Documents/boolean/SPRINGBOOT/spring-la-mia-pizzeria-security/src/main/java/it/ashyzan/pizzeria/model/User.java
 /Users/ashyzan/Documents/boolean/SPRINGBOOT/spring-la-mia-pizzeria-security/src/main/java/it/ashyzan/pizzeria/repository/IngredientiRepository.java
 /Users/ashyzan/Documents/boolean/SPRINGBOOT/spring-la-mia-pizzeria-security/src/main/java/it/ashyzan/pizzeria/repository/OffersRepository.java
 /Users/ashyzan/Documents/boolean/SPRINGBOOT/spring-la-mia-pizzeria-security/src/main/java/it/ashyzan/pizzeria/repository/PizzaRepository.java
+/Users/ashyzan/Documents/boolean/SPRINGBOOT/spring-la-mia-pizzeria-security/src/main/java/it/ashyzan/pizzeria/repository/UserRepository.java
+/Users/ashyzan/Documents/boolean/SPRINGBOOT/spring-la-mia-pizzeria-security/src/main/java/it/ashyzan/pizzeria/security/DatabaseUserDetails.java
+/Users/ashyzan/Documents/boolean/SPRINGBOOT/spring-la-mia-pizzeria-security/src/main/java/it/ashyzan/pizzeria/security/DatabaseUserDetailsService.java
+/Users/ashyzan/Documents/boolean/SPRINGBOOT/spring-la-mia-pizzeria-security/src/main/java/it/ashyzan/pizzeria/security/SecurityConfiguration.java
